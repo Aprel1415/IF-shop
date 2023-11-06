@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Young Serif', serif;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+header {
+    height: 120px;
+    width: 100%;
+}
+
+.linkmedia {
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+#upperblock {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.navbar {    
+    margin-right:80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 500px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.text {
+    margin-right: 90px;
+    text-decoration: underline;
+    font-family: 'Edu TAS Beginner', cursive;
+    color: black;
+}
+
+.text:hover {
+    transition: 1s;
+    transform: translateY(-2px);
+}
+
+.text:not(:hover) {
+    transition: 1s;
+}
+
+main {
+    height: 2000px;
+    width: 100%;
+    background-color: black;
+}
