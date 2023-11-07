@@ -2,11 +2,15 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    font-family: 'Dela Gothic One', sans-serif;
-    font-family: 'Edu TAS Beginner', cursive;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-family: 'Young Serif', serif;
-    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
 }
 
 header {
@@ -14,11 +18,11 @@ header {
     width: 100%;
 }
 
-.linkmedia {
+#linkmedia {
     height: 80px;
     width: 80px;
     margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 5%;
     margin-bottom: 20px;
 }
 
@@ -26,6 +30,12 @@ header {
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    border-radius: 0px 0px 20px 20px;
+    border-bottom:  1px solid rgb(0, 0, 0);
 }
 
 #logo {
@@ -51,8 +61,6 @@ header {
 
 .text {
     margin-right: 90px;
-    text-decoration: underline;
-    font-family: 'Edu TAS Beginner', cursive;
     color: black;
 }
 
@@ -69,4 +77,639 @@ main {
     height: 2000px;
     width: 100%;
     background-color: black;
+}
+
+.item {
+    padding: 2%;
+}
+
+.mainpic {
+    height: 250px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+#itemblock {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 100px;
+    height: 265px;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 4px;
+} 
+
+#itemblock:hover {
+    scale: 1.1;
+    transition: 1s;
+} 
+
+#itemblock:not(hover) {
+    transition: 1s;
+} 
+
+#priceblock {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 385px;
+    height: 30px;
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 385px;
+    height: 30px;
+    width: 8%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+#buyblock:not(:hover) {
+    transition: 1s;
+}
+
+#itemblock2 {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 100px;
+    height: 265px;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#itemblock2:hover {
+    scale: 1.1;
+    transition: 1s;
+} 
+
+#itemblock2:not(hover) {
+    transition: 1s;
+}
+
+#priceblock2 {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 385px;
+    height: 30px;
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock2 {
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 385px;
+    height: 30px;
+    width: 8%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock2:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+#buyblock2:not(:hover) {
+    transition: 1s;
+}
+
+#itemblock3 {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 100px;
+    height: 265px;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#itemblock3:hover {
+    scale: 1.1;
+    transition: 1s;
+} 
+
+#itemblock3:not(hover) {
+    transition: 1s;
+}
+
+#priceblock3 {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 385px;
+    height: 30px;
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock3 {
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 385px;
+    height: 30px;
+    width: 8%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock3:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+#buyblock3:not(:hover) {
+    transition: 1s;
+}
+
+#itemblock4 {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 500px;
+    height: 265px;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 4px;
+} 
+
+#itemblock4:hover {
+    scale: 1.1;
+    transition: 1s;
+} 
+
+#itemblock4:not(hover) {
+    transition: 1s;
+} 
+
+#priceblock4 {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 785px;
+    height: 30px;
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock4 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 785px;
+    height: 30px;
+    width: 8%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock4:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+#buyblock4:not(:hover) {
+    transition: 1s;
+}
+
+#itemblock5 {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 500px;
+    height: 265px;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#itemblock5:hover {
+    scale: 1.1;
+    transition: 1s;
+} 
+
+#itemblock5:not(hover) {
+    transition: 1s;
+}
+
+#priceblock5 {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 785px;
+    height: 30px;
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock5 {
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 785px;
+    height: 30px;
+    width: 8%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock5:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+#buyblock5:not(:hover) {
+    transition: 1s;
+}
+
+#itemblock6 {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 500px;
+    height: 265px;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#itemblock6:hover {
+    scale: 1.1;
+    transition: 1s;
+} 
+
+#itemblock6:not(hover) {
+    transition: 1s;
+}
+
+#priceblock6 {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 785px;
+    height: 30px;
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock6 {
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 785px;
+    height: 30px;
+    width: 8%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock6:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+#buyblock6:not(:hover) {
+    transition: 1s;
+}
+
+#itemblock7 {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 900px;
+    height: 265px;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 4px;
+} 
+
+#itemblock7:hover {
+    scale: 1.1;
+    transition: 1s;
+} 
+
+#itemblock7:not(hover) {
+    transition: 1s;
+} 
+
+#priceblock7 {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 1185px;
+    height: 30px;
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock7 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 1185px;
+    height: 30px;
+    width: 8%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock7:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+#buyblock7:not(:hover) {
+    transition: 1s;
+}
+
+#itemblock8 {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 900px;
+    height: 265px;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#itemblock8:hover {
+    scale: 1.1;
+    transition: 1s;
+} 
+
+#itemblock8:not(hover) {
+    transition: 1s;
+}
+
+#priceblock8 {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 1185px;
+    height: 30px;
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock8 {
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 1185px;
+    height: 30px;
+    width: 8%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock8:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+#buyblock8:not(:hover) {
+    transition: 1s;
+}
+
+#itemblock9 {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 900px;
+    height: 265px;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#itemblock9:hover {
+    scale: 1.1;
+    transition: 1s;
+} 
+
+#itemblock9:not(hover) {
+    transition: 1s;
+}
+
+#priceblock9 {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 1185px;
+    height: 30px;
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock9 {
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 1185px;
+    height: 30px;
+    width: 8%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock9:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+#buyblock9:not(:hover) {
+    transition: 1s;
+}
+
+#itemblock10 {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 1300px;
+    height: 265px;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 4px;
+} 
+
+#itemblock10:hover {
+    scale: 1.1;
+    transition: 1s;
+} 
+
+#itemblock10:not(hover) {
+    transition: 1s;
+} 
+
+#priceblock10 {
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 1585px;
+    height: 30px;
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock10 {
+    position: absolute;
+    margin-left: 22%;
+    margin-top: 1585px;
+    height: 30px;
+    width: 8%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock10:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+#buyblock10:not(:hover) {
+    transition: 1s;
+}
+
+#itemblock11 {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 1300px;
+    height: 265px;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#itemblock11:hover {
+    scale: 1.1;
+    transition: 1s;
+} 
+
+#itemblock11:not(hover) {
+    transition: 1s;
+}
+
+#priceblock11 {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 1585px;
+    height: 30px;
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock11 {
+    position: absolute;
+    margin-left: 52%;
+    margin-top: 1585px;
+    height: 30px;
+    width: 8%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock11:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+#buyblock11:not(:hover) {
+    transition: 1s;
+}
+
+#itemblock12 {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 1300px;
+    height: 265px;
+    width: 20%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#itemblock12:hover {
+    scale: 1.1;
+    transition: 1s;
+} 
+
+#itemblock12:not(hover) {
+    transition: 1s;
+}
+
+#priceblock12 {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 1585px;
+    height: 30px;
+    width: 10%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock12 {
+    position: absolute;
+    margin-left: 82%;
+    margin-top: 1585px;
+    height: 30px;
+    width: 8%;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+#buyblock12:hover {
+    transition: 1s;
+    scale: 1.2;
+}
+
+#buyblock12:not(:hover) {
+    transition: 1s;
+}
+
+.item > p {
+    margin-top: 2%;
+    margin-left: 32%;
+    color: black;
+}
+
+.buy {
+    margin-top: 4%;
+    margin-left: 38%;
+    color: #000;
+}
+
+#bottomblock {
+    height: 120px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px 20px 0px 0px;
+    border-top:  1px solid rgb(0, 0, 0);
+}
+
+#tgblock {
+    height: 80px;
+    width: 80px;
+    padding: 1%;
+}
+
+#mediatg {
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 70px;
+    width: 70px;
+}
+
+#contacts {
+    margin-top: 35px;
+    margin-left: 500px;
+}
+
+#email {
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.feedback {
+    color: #000;
 }
